@@ -34,9 +34,11 @@ hr {
 }
 
 .top-container {
-  background-color: #d2fafb;
   position: relative;
   padding-top: 125px;
+  padding-bottom: 390px;
+  background-image: url("images/background.svg");
+  background-size: cover;
 }
 
 .top-cloud {
@@ -54,11 +56,11 @@ hr {
 .name {
   font-family: 'Sacramento', cursive;
   font-size: 5rem;
-  color: #51dacf;
+  color: rgb(255, 255, 255);
 }
 
 .status {
-  color: #51dacf;
+  color: rgb(255, 255, 255);
   font-family: 'Montserrat', sans-serif;
   margin-top: 0;
   font-weight: normal;
@@ -113,7 +115,7 @@ hr {
 
 .ftn {
   color: #EAF6F6;
-  font-size: 12px;
+  font-size: 60%;
   padding-top: 20px;
 }
 
