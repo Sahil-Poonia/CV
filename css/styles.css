@@ -1,153 +1,198 @@
-a {
-  color: #11999E;
-}
-
-body {
-  color: #40514E;
-  margin: 0;
+/* Header Section */
+#header {
+  font-family: "Montserrat";
   text-align: center;
-  font-family: 'Merriweather', serif;
-}
-
-h1 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-h2 {
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
-}
-
-h3 {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
+  padding: 3% 4% 2%;
 }
 
 hr {
-  border-color: #8e8e8e;
-  border-style: none;
-  border-top-style: dotted;
-  width: 5%;
-  border-width: thick;
-  margin: 70px auto 70px auto;
+  width: 70%;
+  border-width: 1px;
+  border-color: rgb(47, 47, 51);
 }
 
-.top-container {
-  position: relative;
-  padding-top: 125px;
-  padding-bottom: 390px;
-  background-image: url("images/background.svg");
-  background-size: cover;
+.carousel-item {
+   height: 550px;
 }
 
-.top-cloud {
-  width: auto;
-  position: absolute;
-  top: 50px;
-  right: 20%;
+@media (max-width: 1028px) {
+  hr {
+    border: none;
+  }
+  .carousel-item {
+    height: 300px;
+  }
+  .header-pic {
+    width: 70px;
+    height: 70px;
+  }
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 20%;
+/* Welcome Section */
+#welcome {
+  text-align: center;
+  padding: 10% 20%;
+  background-color: rgb(233, 233, 233);
 }
 
-.name {
-  font-family: 'Sacramento', cursive;
-  font-size: 5rem;
-  font-weight: normal;
-  color: rgb(255, 255, 255);
+.welcome-heading {
+  font-family: "ubuntu";
+  color: rgb(203, 122, 48);
+  font-weight: bold;
+  font-size: 4.5rem;
 }
 
-.status {
-  color: rgb(255, 255, 255);
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 0;
-  font-weight: normal;
+.welcome-line {
+  font-family: "Montserrat";
+  color: rgb(63, 64, 62);
 }
 
-.profile {
-  width: 30%;
-  margin: 70px auto 70px auto;
-  line-height: 2;
+/* About Me Section */
+#about-me {
+  text-align: center;
+  background-color: rgb(203, 122, 48);
+  color: #fff;
+  padding: 10% 20%;
 }
 
-.skill-row {
-  width: 50%;
-  margin: 90px auto 90px auto;
+.about-me-heading {
+  font-family: "ubuntu";
+  font-weight: bold;
+}
+
+/* Education Section */
+#education {
+  text-align: center;
+  background-color: #fff;
+  padding: 10% 14%;
+}
+
+.education-heading {
+  font-family: "ubuntu";
+  font-weight: bold;
+  color: rgb(203, 122, 48);
+  padding-bottom: 1rem;
+}
+
+.edu-table {
+  padding-top: 3rem;
+}
+
+.edu-name {
+  font-family: "ubuntu";
+  color: rgb(203, 122, 48);
+}
+
+/* My skills Section */
+#my-skills {
   text-align: left;
-  line-height: 2;
+  background-color: rgb(233, 233, 233);
 }
 
-.computer {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-.game-controller {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-}
-
-.bottom-container {
-  background-color: #66BFBF;
+.skills {
   margin: 0;
-  padding-bottom: 20px;
-  padding-top: 50px;
 }
 
-.contact-me {
-  padding-bottom: 60px;
+.skill-pic {
+  padding: 0;
 }
 
-.footer-link {
-  padding: 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  text-decoration: none;
+.skill-heading {
+  font-family: "ubuntu";
+  color: rgb(203, 122, 48);
+  font-weight: bold;
+  padding: 5% 0;
 }
 
-.footer-link:hover {
-  color: #EAF6F6;
+.skill-h3 {
+  font-family: "Montserrat";
+  color: rgb(203, 122, 48);
 }
 
-.ftn {
-  color: #EAF6F6;
-  font-size: 60%;
-  padding-top: 20px;
+/* Quote Section */
+#quote {
+  text-align: center;
+  background-color: rgb(203, 122, 48);
+  color: #fff;
+  padding: 10% 20%;
 }
 
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px auto;
+.quote-heading {
+  font-family: "ubuntu";
+  font-weight: bold;
 }
 
-.btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
+.quote-p {
+  font-family: "Montserrat";
+}
+
+/* Contact Me Section */
+#contact-me {
+  text-align: center;
+  background-color: #fff;
+  padding: 10% 30%;
+}
+
+.contact-heading {
+  font-family: "ubuntu";
+  font-weight: bold;
+  color: rgb(203, 122, 48);
+}
+
+.contact-sub-heading {
+  font-family: "Montserrat";
+  color: rgb(170, 101, 39);
+}
+
+.contact-p {
+  font-family: "Montserrat";
+}
+
+.butn {
+  background: #ff6f00;
+  background-image: -webkit-linear-gradient(top, #ff6f00, #ff8400);
+  background-image: -moz-linear-gradient(top, #ff6f00, #ff8400);
+  background-image: -ms-linear-gradient(top, #ff6f00, #ff8400);
+  background-image: -o-linear-gradient(top, #ff6f00, #ff8400);
+  background-image: linear-gradient(to bottom, #ff6f00, #ff8400);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
-.btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+.butn:hover {
+  color: #ffffff;
+  background: #ff9a2e;
+  background-image: -webkit-linear-gradient(top, #ff9a2e, #e09412);
+  background-image: -moz-linear-gradient(top, #ff9a2e, #e09412);
+  background-image: -ms-linear-gradient(top, #ff9a2e, #e09412);
+  background-image: -o-linear-gradient(top, #ff9a2e, #e09412);
+  background-image: linear-gradient(to bottom, #ff9a2e, #e09412);
   text-decoration: none;
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+  padding: 4% 10%;
+}
+
+.icon-link {
+  color: rgb(0, 0, 0);
+  margin: 10% 1.5%;
+}
+
+.icon-link:hover {
+  color: rgb(203, 122, 48);
+}
+
+.footer {
+  padding-top: 4%;
+  font-size: 0.8rem;
+  color: rgb(106, 104, 102);
 }
