@@ -83,6 +83,32 @@ hr {
   color: rgb(203, 122, 48);
 }
 
+/* My Projects Section */
+#my-projects {
+  text-align: center;
+  background-color: rgb(203, 122, 48);
+  padding: 3% 5%;
+}
+
+.projects-heading {
+  color: #fff;
+  font-family: "ubuntu";
+  font-weight: bold;
+}
+
+.card {
+  border-style: hidden;
+  margin: auto;
+  color: rgb(45, 45, 45)
+  background-color: rgb(233, 233, 233);
+  margin-top: 8%;
+}
+
+.card-title {
+  font-family: "ubuntu";
+  font-weight: bold;
+}
+
 /* My skills Section */
 #my-skills {
   text-align: left;
