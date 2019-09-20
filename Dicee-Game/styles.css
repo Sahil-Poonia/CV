@@ -1,0 +1,39 @@
+body {
+  background-color: #504658;
+}
+
+#Heading {
+  font-family: 'Saira Stencil One', cursive;
+  color: #52de97;
+  text-align: center;
+}
+
+.heading {
+  font-size: 8rem;
+}
+
+.row {
+  margin: 0;
+}
+
+.dicee-div {
+  padding: 5% 20%;
+  font-family: 'Acme', sans-serif;
+  color: #f0decb;
+  text-align: center;
+}
+
+.img1 , .img2 {
+  width: 45%;
+}
+
+.butn {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 3%;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #696464;
+}
