@@ -1,224 +1,158 @@
-/* Header Section */
-#header {
-  font-family: "Montserrat";
-  text-align: center;
-  padding: 3% 4% 2%;
+#home {
+  background-color: #6bc5d2;
+  background-image: url("images/bg-hero-desktop.svg");
+  font-family: 'Roboto', sans-serif;
 }
 
-hr {
-  width: 70%;
-  border-width: 1px;
-  border-color: rgb(47, 47, 51);
-}
-
-.carousel-item {
-   height: 550px;
-}
-
-@media (max-width: 1028px) {
-  hr {
-    border: none;
-  }
-  .carousel-item {
-    height: 300px;
-  }
-  .header-pic {
-    width: 70px;
-    height: 70px;
-  }
-}
-
-/* Welcome Section */
-#welcome {
-  text-align: center;
-  padding: 10% 20%;
-  background-color: rgb(233, 233, 233);
-}
-
-.welcome-heading {
-  font-family: "ubuntu";
-  color: rgb(203, 122, 48);
-  font-weight: bold;
-  font-size: 4.5rem;
-}
-
-.welcome-line {
-  font-family: "Montserrat";
-  color: rgb(63, 64, 62);
-}
-
-/* About Me Section */
-#about-me {
-  text-align: center;
-  background-color: rgb(203, 122, 48);
-  color: #fff;
-  padding: 10% 20%;
-}
-
-.about-me-heading {
-  font-family: "ubuntu";
-  font-weight: bold;
-}
-
-/* Education Section */
-#education {
-  text-align: center;
-  background-color: #fff;
-  padding: 10% 14%;
-}
-
-.education-heading {
-  font-family: "ubuntu";
-  font-weight: bold;
-  color: rgb(203, 122, 48);
-  padding-bottom: 1rem;
-}
-
-.edu-table {
+.navbar {
   padding-top: 3rem;
 }
 
-.edu-name {
-  font-family: "ubuntu";
-  color: rgb(203, 122, 48);
+.mynav {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
-/* My Projects Section */
-#my-projects {
-  text-align: center;
-  background-color: rgb(203, 122, 48);
-  padding: 3% 5%;
+.nav-text {
+  font-family: 'Roboto', sans-serif;
 }
 
-.projects-heading {
-  color: #fff;
-  font-family: "ubuntu";
-  font-weight: bold;
+.welcome-text {
+  font-family: 'Poiret One', cursive;
+  font-size: 4rem;
+  font-weight: bolder;
 }
 
-.card {
-  border-style: hidden;
-  margin: auto;
-  color: rgb(45, 45, 45)
-  background-color: rgb(233, 233, 233);
-  margin-top: 8%;
-}
-
-.card-title {
-  font-family: "ubuntu";
-  font-weight: bold;
-}
-
-/* My skills Section */
-#my-skills {
-  text-align: left;
-  background-color: rgb(233, 233, 233);
-}
-
-.skills {
+.welcome {
   margin: 0;
 }
 
-.skill-pic {
-  padding: 0;
-}
-
-.skill-heading {
-  font-family: "ubuntu";
-  color: rgb(203, 122, 48);
-  font-weight: bold;
-  padding: 5% 0;
-}
-
-.skill-h3 {
-  font-family: "Montserrat";
-  color: rgb(203, 122, 48);
-}
-
-/* Quote Section */
-#quote {
-  text-align: center;
-  background-color: rgb(203, 122, 48);
-  color: #fff;
-  padding: 10% 20%;
-}
-
-.quote-heading {
-  font-family: "ubuntu";
-  font-weight: bold;
-}
-
-.quote-p {
-  font-family: "Montserrat";
-}
-
-/* Contact Me Section */
-#contact-me {
-  text-align: center;
-  background-color: #fff;
-  padding: 10% 30%;
-}
-
-.contact-heading {
-  font-family: "ubuntu";
-  font-weight: bold;
-  color: rgb(203, 122, 48);
-}
-
-.contact-sub-heading {
-  font-family: "Montserrat";
-  color: rgb(170, 101, 39);
-}
-
-.contact-p {
-  font-family: "Montserrat";
-}
-
-.butn {
-  background: #ff6f00;
-  background-image: -webkit-linear-gradient(top, #ff6f00, #ff8400);
-  background-image: -moz-linear-gradient(top, #ff6f00, #ff8400);
-  background-image: -ms-linear-gradient(top, #ff6f00, #ff8400);
-  background-image: -o-linear-gradient(top, #ff6f00, #ff8400);
-  background-image: linear-gradient(to bottom, #ff6f00, #ff8400);
-  -webkit-border-radius: 10;
-  -moz-border-radius: 10;
-  border-radius: 10px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
-
-.butn:hover {
-  color: #ffffff;
-  background: #ff9a2e;
-  background-image: -webkit-linear-gradient(top, #ff9a2e, #e09412);
-  background-image: -moz-linear-gradient(top, #ff9a2e, #e09412);
-  background-image: -ms-linear-gradient(top, #ff9a2e, #e09412);
-  background-image: -o-linear-gradient(top, #ff9a2e, #e09412);
-  background-image: linear-gradient(to bottom, #ff9a2e, #e09412);
-  text-decoration: none;
-}
-
-/* Footer Section */
-#footer {
-  text-align: center;
-  padding: 4% 10%;
+.hello-img {
+  padding: 0 2.5rem;
 }
 
 .icon-link {
-  color: rgb(0, 0, 0);
+  color: #315b96;
   margin: 10% 1.5%;
 }
 
 .icon-link:hover {
-  color: rgb(203, 122, 48);
+  color: #3c70a4;
 }
 
-.footer {
-  padding-top: 4%;
-  font-size: 0.8rem;
-  color: rgb(106, 104, 102);
+.nav {
+  position: fixed;
+  right: 4rem;
+  bottom: 2.5rem;
+}
+
+/* {========================}
+     Education Page
+{========================} */
+#education {
+  text-align: center;
+}
+
+.jumbotron {
+  text-align: center;
+  padding: 1.5rem 0;
+  background-color: #6bc5d2;
+  font-family: 'Roboto', sans-serif;
+}
+
+.jumbo-heading, .edu-name, .skill-heading {
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+}
+
+.education-table {
+  margin: 2rem;
+}
+
+.edu-table {
+  padding-top: 2rem;
+}
+
+/* {========================}
+     About Me Page
+{========================} */
+#about-me {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.aboutme-text {
+  padding: 0 4rem;
+}
+
+.aboutme-img {
+  padding: 0 3rem;
+}
+
+.skills {
+  padding-top: 10px;
+  margin: 0;
+}
+
+.skill-row {
+  padding: 2rem;
+}
+
+/* {========================}
+     Contact Me Page
+{========================} */
+#contact {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact-img {
+  padding: 2rem 3rem;
+}
+
+.contact-row {
+  margin: 0;
+}
+
+.contact-col {
+  padding: 1rem;
+}
+
+.contact-btn {
+  margin-bottom: 1rem;
+}
+
+/* {========================}
+     About Me Page
+{========================} */
+#projects {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.project-row {
+  text-align: center;
+  margin: 0;
+}
+
+.project-card {
+  border-style: hidden;
+  margin: auto;
+}
+
+@media (max-width: 1028px) {
+  .hello-img, .aboutme-img, .contact-img {
+    text-align: center;
+    width: 75%;
+    margin: 1.5rem 2.5rem;
+  }
+
+  .nav {
+    position: static;
+    padding-bottom: 10px;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
 }
