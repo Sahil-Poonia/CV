@@ -103,6 +103,11 @@
  margin:auto
 }
 
+.modal-center {
+ margin-left: auto;
+ margin-right: auto;
+}
+
 .rounded-lg {
  border-radius:.9rem !important;
 }
