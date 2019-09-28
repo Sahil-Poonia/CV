@@ -84,6 +84,9 @@
 .contact-row {
  margin:0
 }
+.contact-alert {
+  display: none;
+}
 .contact-col {
  padding:1rem
 }
@@ -123,13 +126,16 @@ img.rounded-lg {
  .contact-img {
   text-align:center;
   width:75%;
-  margin:1.5rem 2.5rem
+  margin:1.5rem 2.5rem;
  }
  .nav {
   position:static;
-  padding-bottom:10px
+  padding-bottom:10px;
  }
  .navbar-collapse {
-  text-align:center
+  text-align:center;
  }
+  .contact-alert {
+    display: block;
+  }
 }
